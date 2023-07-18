@@ -1,0 +1,193 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticky Navbar</title>
+    <style>
+      body {
+        margin: 0px;
+      }
+      #container {
+        padding: 20px 100px;
+      }
+      #header {
+        text-align: center;
+      }
+      #logo {
+        height: auto;
+        width: 200px;
+      }
+      #menu-bar {
+        width: 100%;
+        text-align: center;
+        background-color: cadetblue;
+        margin: 0 0 10px 0;
+      }
+      #menu-bar li {
+        display: inline-block;
+        padding: 15px 10px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      #container {
+      }
+      h1 {
+        text-align: center;
+        text-decoration: underline;
+      }
+      img {
+        width: 100%;
+        margin: 0 0 10px 0;
+      }
+      p {
+        font-size: 18px;
+        text-align: justify;
+      }
+      .btn {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        border: solid grey 2px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      #color-switch {
+        text-align: right;
+      }
+      #white {
+        background-color: white;
+      }
+      #aqua {
+        background-color: aquamarine;
+      }
+      #violet {
+        background-color: violet;
+      }
+      #black {
+        background-color: black;
+      }
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <img
+        src="https://img.freepik.com/free-vector/creative-barbecue-logo-template_23-2149017951.jpg?w=1380&t=st=1687376225~exp=1687376825~hmac=b6747d34da7899fac2dff6a34ce4812cb73d90ccb71224dc17355dfb15f2c352"
+        alt=""
+        id="logo"
+      />
+    </div>
+
+    <nav id="menu-bar">
+      <li>Home</li>
+      <li>About Us</li>
+      <li>Our Team</li>
+      <li>Client</li>
+      <li>Contact Us</li>
+    </nav>
+    <div id="container">
+      <div id="color-switch">
+        <span class="btn" id="white" onclick="changeBG('#ffffff')"></span>
+        <span class="btn" id="aqua" onclick="changeBG('#7FFFD4')"></span>
+        <span class="btn" id="violet" onclick="changeBG('#8F00FF')"></span>
+        <span class="btn" id="black" onclick="changeBG('#000000')"></span>
+      </div>
+      <h1 class="text">About Us</h1>
+      <img
+        src="https://images.unsplash.com/photo-1658541310528-900e711c6124?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
+        height="600"
+        width="1200"
+        alt=""
+      />
+      <p class="text">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta sed
+        expedita at, exercitationem cupiditate quaerat iste qui delectus
+        reprehenderit cum dolores nihil maiores provident voluptates corrupti
+        adipisci ullam? Facere voluptates itaque nulla voluptas quaerat alias
+        ipsa consectetur odit eum rerum sunt a deleniti ratione commodi
+        quibusdam, perspiciatis iusto, assumenda placeat quidem libero iure sed.
+        Placeat adipisci quod ipsum quaerat incidunt consectetur necessitatibus
+        nam officiis animi, vel deserunt impedit est officia? Consequuntur
+        dignissimos enim repudiandae id numquam illum laboriosam quo,
+        accusantium voluptatum maiores eius! Rem optio incidunt accusantium
+        aliquam officiis iure odit sunt fuga voluptatum ab, exercitationem
+        deleniti obcaecati quaerat dolores saepe, rerum, tenetur quia! Maxime
+        soluta tempora deserunt veniam iure omnis repellat consequuntur illo!
+        Voluptatem modi cumque laborum quod. Ad accusamus libero, aspernatur
+        amet est ut nobis veniam voluptate cumque laudantium dignissimos harum
+        labore omnis adipisci sunt debitis eos! Enim minima quos nihil aliquid
+        iste error, qui quibusdam distinctio praesentium fugiat ipsum fuga,
+        possimus incidunt repellat esse. Porro est nemo at deleniti natus
+        debitis eius vero? Totam consequatur quia laborum veritatis architecto
+        qui animi aperiam eligendi quas officiis provident facere, aliquam
+        officia illo, eum vel doloremque et? Dicta dignissimos, consequuntur,
+        laboriosam ipsa iste nihil amet earum ipsam laborum blanditiis enim.
+        Cumque quo dolorum animi vero iusto consectetur repellat distinctio.
+        Amet quas quidem voluptatem illum sit, non quis impedit adipisci sequi?
+        Nihil ea saepe ipsa nobis modi, architecto sit. Molestiae fugiat ut,
+        enim explicabo laudantium impedit libero provident, consequatur et,
+        dolores natus amet! Aliquid iste numquam modi eum reiciendis corporis
+        deleniti quisquam error perspiciatis. Est magnam vitae obcaecati beatae
+        quam porro nobis nam blanditiis molestiae perferendis placeat alias
+        praesentium esse fuga in reprehenderit, explicabo odio veritatis
+        doloribus nihil sint voluptatibus eveniet. Impedit, voluptatem? Quae
+        impedit modi harum ea. Facilis velit nostrum rerum fugit, provident,
+        numquam, iste sunt asperiores repellendus distinctio a. Doloremque
+        debitis quo ullam itaque ex ratione veritatis, odit, est consequuntur
+        beatae porro aliquam dignissimos distinctio tenetur animi quae? Ullam
+        debitis dolor non sequi facere provident, magni officiis suscipit
+        maiores voluptas odit, voluptatibus impedit? Numquam odio ad accusantium
+        dolore repudiandae pariatur accusamus nobis aperiam enim tempore,
+        explicabo a quo nihil reprehenderit vel voluptatibus culpa doloremque
+        error maxime sed labore iusto blanditiis est nisi? Consequuntur omnis
+        quaerat quas ipsam quos voluptates quo quod architecto? Obcaecati non
+        itaque accusamus exercitationem suscipit rerum quasi nobis soluta sed
+        cupiditate dolorum tenetur ipsum molestiae aspernatur sapiente saepe
+        optio praesentium quibusdam magnam, facere nulla adipisci! Iure, rerum
+        provident sit alias ducimus dicta laboriosam dolore suscipit quos
+        nostrum nobis neque corrupti hic labore accusantium totam illo enim
+        cumque. Animi quod perferendis cupiditate, laborum iste officiis?
+        Maxime, in ut architecto quis omnis illo obcaecati dicta modi atque
+        cumque dignissimos, veritatis assumenda voluptatibus porro. Provident
+        molestias saepe, perferendis maxime tempora, est veritatis error
+        laboriosam ad cumque similique incidunt? Numquam, quae cum? Molestias,
+        fugit error, iure quibusdam alias delectus, aut minima suscipit id nemo
+        laboriosam nostrum ducimus doloribus inventore porro sint atque harum
+        quia ullam numquam! Deleniti, repellat quod voluptatum aliquam debitis
+        reprehenderit natus vel a, quisquam et eum nesciunt.
+      </p>
+    </div>
+    <script>
+      function changeBG(color) {
+        document.body.style.backgroundColor = color;
+        let txt = document.getElementsByClassName("text");
+        if (color == "#000000") {
+          for (let elm of txt) {
+            elm.style.color = "white";
+          }
+        } else {
+          for (let elm of txt) {
+            elm.style.color = "black";
+          }
+        }
+      }
+
+      window.addEventListener("scroll", function () {
+
+        let navbar = document.getElementById("menu-bar")
+
+        if (window.pageYOffset >= 200) {
+          navbar.classList.add('sticky')
+        }
+        else{
+          navbar.classList.remove('sticky')
+        }
+      });
+    </script>
+  </body>
+</html>
